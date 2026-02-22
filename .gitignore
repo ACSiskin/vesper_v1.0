@@ -1,0 +1,11 @@
+
+.env
+.env.local
+instagram_cookies.json
+
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+*.sqlite
