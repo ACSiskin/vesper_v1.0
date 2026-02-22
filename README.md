@@ -1,9 +1,8 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="public/logo.png" alt="VESPER Logo" width="140" />
+  <img src="public/logo.png" alt="VESPER Logo" width="240" />
 </p>
 
-<h1 align="center">V.E.S.P.E.R</h1>
 <p align="center"><b>Virtual Entity Surveillance & Profiling Engine for Research</b></p>
 
 <p align="center">
