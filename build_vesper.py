@@ -50,9 +50,9 @@ def setup_database_local():
 
     print_step("Provisioning V.E.S.P.E.R. database and user...")
     db_setup_cmds = [
-        "sudo -u postgres psql -c \"CREATE USER roi_user WITH PASSWORD 'super_secret';\"",
-        "sudo -u postgres psql -c \"CREATE DATABASE vesper_db OWNER roi_user;\"",
-        "sudo -u postgres psql -c \"GRANT ALL PRIVILEGES ON DATABASE vesper_db TO roi_user;\""
+        "sudo -u postgres psql -c \"CREATE USER user_user WITH PASSWORD 'super_secret';\"",
+        "sudo -u postgres psql -c \"CREATE DATABASE vesper_db OWNER user_user;\"",
+        "sudo -u postgres psql -c \"GRANT ALL PRIVILEGES ON DATABASE vesper_db TO user_user;\""
     ]
     for cmd in db_setup_cmds:
         run_command(cmd, ignore_errors=True)
@@ -73,7 +73,7 @@ def setup_database_docker():
 
     print_step("Provisioning PostgreSQL container...")
     run_command("docker rm -f vesper-db", ignore_errors=True)
-    run_command("docker run --name vesper-db -e POSTGRES_USER=roi_user -e POSTGRES_PASSWORD=super_secret -e POSTGRES_DB=vesper_db -p 5432:5432 -d postgres:15-alpine")
+    run_command("docker run --name vesper-db -e POSTGRES_USER=user_user -e POSTGRES_PASSWORD=super_secret -e POSTGRES_DB=vesper_db -p 5432:5432 -d postgres:15-alpine")
     print_step("Docker database container started. Waiting for initialization...")
     time.sleep(5)
 
