@@ -112,8 +112,8 @@ If you want the fastest path on a VPS (Ubuntu/Debian):
 ```bash
 git clone https://github.com/your-repo/vesper.git
 cd vesper
-chmod +x setup_vesper_full.py
-sudo python3 setup_vesper_full.py
+chmod +x build_vesper.py
+sudo python3 build_vesper.py
 ```
 
 ---
@@ -135,8 +135,8 @@ cd vesper
 **2) Grant permissions and run the script as root**  
 (Make sure you use `setup_vesper_full.py`)
 ```bash
-chmod +x setup_vesper_full.py
-sudo python3 setup_vesper_full.py
+chmod +x build_vesper.py
+sudo python3 build_vesper.py
 ```
 
 The script will start containers, build the system, and run it on port **3000**.
