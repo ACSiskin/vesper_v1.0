@@ -313,7 +313,7 @@ model SocialBotLocation {
 }"""
     with open("prisma/schema.prisma", "w", encoding="utf-8") as f: f.write(schema_prisma)
 
-    # Zaktualizowane poświadczenia aby idealnie pasowały do roi_user stworzonego wyżej
+    # Z.ENV
     env_data = """# NOTE: The URL must include the postgresql prefix.'postgresql://'
 DATABASE_URL="postgresql://user_user:super_secret@localhost:5432/vesper_db?schema=public"
 OPENAI_API_KEY="sk-..."
