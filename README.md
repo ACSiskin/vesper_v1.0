@@ -110,7 +110,7 @@ If you want the fastest path on a VPS (Ubuntu/Debian):
 4. Open `http://<server-ip>:3000`
 
 ```bash
-git clone https://github.com/your-repo/vesper.git
+git clone https://github.com/ACSiskin/vesper_v1.0.git
 cd vesper
 chmod +x build_vesper.py
 sudo python3 build_vesper.py
@@ -128,12 +128,11 @@ The repository includes an integrated Python deployment script that installs all
 
 **1) Clone the repository and enter the directory:**
 ```bash
-git clone https://github.com/your-repo/vesper.git
+git clone https://github.com/ACSiskin/vesper_v1.0.git
 cd vesper
 ```
 
 **2) Grant permissions and run the script as root**  
-(Make sure you use `setup_vesper_full.py`)
 ```bash
 chmod +x build_vesper.py
 sudo python3 build_vesper.py
