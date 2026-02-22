@@ -278,8 +278,6 @@ In the profile header (`TargetHeader`), click **"Export PDF"** to generate a com
 
 ## Security & Operational Notes
 
-- **Keep cookies private**: `instagram_cookies.json` contains session tokens. Treat it like a password.
-- **Don’t commit secrets**: Add `.env` and `instagram_cookies.json` to `.gitignore`.
 - **Rate limiting**: Instagram may block aggressive behavior. Prefer **Deep scan** only when needed and use realistic delays.
 - **VPS hardening**: If exposing publicly, use a firewall (e.g., UFW) and keep the server updated.
 - **Legal**: Always operate with explicit authorization for any target.
