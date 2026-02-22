@@ -3,7 +3,7 @@
   <img src="public/logo.png" alt="VESPER Logo" width="140" />
 </p>
 
-<h1 align="center">🕵️ VESPER</h1>
+<h1 align="center">V.E.S.P.E.R</h1>
 <p align="center"><b>Virtual Entity Surveillance & Profiling Engine for Research</b></p>
 
 <p align="center">
@@ -101,7 +101,7 @@ The system follows a microservice-like approach inside a Next.js monolith (App R
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 If you want the fastest path on a VPS (Ubuntu/Debian):
 
@@ -119,7 +119,7 @@ sudo python3 setup_vesper_full.py
 
 ---
 
-## 🛠️ Installation & Deployment
+## Installation & Deployment
 
 VESPER can be installed in two ways: automated (recommended for VPS servers like Ubuntu/Debian) or manual (for development environments).
 
@@ -178,7 +178,7 @@ Export your cookies from the browser (e.g., using the EditThisCookie extension i
 
 ---
 
-## 🔧 Environment Variables
+## Environment Variables
 
 Create a `.env` file in the project root.
 
@@ -254,7 +254,7 @@ Done! Your system is now securely available at `https://yourdomain.com`.
 
 ---
 
-## 📖 User Guide
+## User Guide
 
 ### 1) Start a Scan
 
@@ -321,7 +321,7 @@ VESPER is intended **exclusively** for educational, research, and authorized OSI
 - Automated data collection may violate social platform Terms of Service.
 - Users must comply with local privacy regulations (including GDPR/RODO).
 
-© 2026 VESPER Project. All Rights Reserved.
+2026 VESPER Project. All Rights Reserved.
 ---
 
 ## Appendix: Detailed User Instructions (Expanded)
